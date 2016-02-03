@@ -7,7 +7,8 @@ import utils
 
 class TestUtils(unittest.TestCase):
     def test_fact(self):
-        # À compléter...
+        if n<0:
+            raise ValueError
         pass
     
     def test_roots(self):
@@ -15,7 +16,8 @@ class TestUtils(unittest.TestCase):
         pass
     
     def test_integrate(self):
-        # À compléter...
+        if lower <= upper:
+            raise
         pass
 
 if __name__ == '__main__':
