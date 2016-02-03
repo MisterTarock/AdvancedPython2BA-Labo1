@@ -8,7 +8,8 @@ import utils
 
 class TestUtils(unittest.TestCase):
     def test_fact(self):
-        self.assertRaises(ValueError, utils.fact, -1)
+        with self.assertRaises(ValueError):
+            utils.fact(-1)
         self.assertEqual(utils.fact(0), 1)
         self.assertEqual(utils.fact(5), 120)
     

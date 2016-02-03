@@ -34,7 +34,7 @@ def roots(a, b, c):
     elif discriminant == 0:
         return ( (-b + sqrt(discriminant)) / (2 * a) )
     else:
-        return ( (-b + sqrt(discriminant)) / (2 * a), (-b - math.sqrt(discriminant)) / (2 * a) )
+        return ( (-b + sqrt(discriminant)) / (2 * a), (-b - sqrt(discriminant)) / (2 * a) )
 
 
 
