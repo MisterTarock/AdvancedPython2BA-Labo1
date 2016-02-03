@@ -5,6 +5,7 @@
 import unittest
 import utils
 
+
 class TestUtils(unittest.TestCase):
     def test_fact(self):
         self.assertRaises(ValueError, utils.fact, -1)
